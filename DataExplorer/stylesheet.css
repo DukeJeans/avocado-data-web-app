@@ -19,7 +19,14 @@ footer {
 .master-div {
     padding: 5px;
 }
+button {
+    border-radius: 9px;
+    border: groove darkgreen;
+}
 .default-page {
     width: 60%;
     margin: 0 auto;
+}
+.avocado-sales-dash, .dash1-instructions {
+    font-size: 16px;
 }

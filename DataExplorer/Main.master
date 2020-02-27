@@ -20,13 +20,19 @@
         </div>
     </header>
     <div class="master-div">
-        <a href="default.aspx">Home Page</a>
+        <form action="default.aspx">
+            <button type="submit">Home Page</button>
+        </form>
     </div>
     <div class="master-div">
-        <a href="dash1.aspx">Avocado PLU Dashboard</a>
+        <form action="dash1.aspx">
+            <button type="submit">Avocado PLU Sales</button>
+        </form>
     </div>
     <div class="master-div">
-        <a href="dash2.aspx">Dashboard Two</a>
+        <form action="dash2.aspx">
+            <button type="submit">Avocado Bags and Price</button>
+        </form>
     </div>
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
