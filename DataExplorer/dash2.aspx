@@ -12,7 +12,8 @@
         <div>
             <p style="font-size: 16px">
                 Search which region you would like to view sales statistics for in the textbox, and then proceed to choose which year you would like to filter by in the second dropdown menu.
-                When using the textbox to search, the results will include entries containing the searched substring.</p>
+                When using the textbox to search, the results will include entries containing the searched substring. Click on column headers to sort accordingly.</p>
+            <p style="font-size: 16px">You can you the list of regions towards the bottom left to inform your search criteria.</p>
         </div>
     </header>
     <div id="dash2-data-sources">
