@@ -1,0 +1,35 @@
+﻿html {
+    background-color: #f7f7f7;
+}
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 90%
+}
+header {
+    font-size: 30px;
+}
+footer {
+    bottom: 0;
+    position: fixed;
+    font-size: 16px;
+}
+.master-div {
+    padding: 5px;
+}
+button {
+    border-radius: 9px;
+    border: groove darkgreen;
+}
+.default-page {
+    width: 60%;
+    margin: 0 auto;
+}
+.avocado-sales-dash, .dash1-instructions {
+    font-size: 16px;
+}
+button:hover {
+    opacity: 0.75;
+}

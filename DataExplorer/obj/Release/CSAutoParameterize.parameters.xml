@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="avocado-plu-region-str-Web.config Connection String" description="avocado-plu-region-str Connection String used in web.config by the application to access the database." defaultValue="Data Source=jeansndserver.database.windows.net;Initial Catalog=jeans-assignment;User ID=jeansmachine;Password=kitkat3006A!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Files\\Repositories\\avocado-web-app\\DataExplorer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='avocado-plu-region-str']/@connectionString" />
+  </parameter>
+  <parameter name="region-str-Web.config Connection String" description="region-str Connection String used in web.config by the application to access the database." defaultValue="Data Source=jeansndserver.database.windows.net;Initial Catalog=jeans-assignment;User ID=jeansmachine;Password=kitkat3006A!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Files\\Repositories\\avocado-web-app\\DataExplorer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='region-str']/@connectionString" />
+  </parameter>
+  <parameter name="avocadoPLUs-Web.config Connection String" description="avocadoPLUs Connection String used in web.config by the application to access the database." defaultValue="Data Source=jeansndserver.database.windows.net;Initial Catalog=jeans-assignment;User ID=jeansmachine;Password=kitkat3006A!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Files\\Repositories\\avocado-web-app\\DataExplorer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='avocadoPLUs']/@connectionString" />
+  </parameter>
+  <parameter name="avocadoSale-years-Web.config Connection String" description="avocadoSale-years Connection String used in web.config by the application to access the database." defaultValue="Data Source=jeansndserver.database.windows.net;Initial Catalog=jeans-assignment;User ID=jeansmachine;Password=kitkat3006A!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Files\\Repositories\\avocado-web-app\\DataExplorer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='avocadoSale-years']/@connectionString" />
+  </parameter>
+  <parameter name="avocadoSales-months-Web.config Connection String" description="avocadoSales-months Connection String used in web.config by the application to access the database." defaultValue="Data Source=jeansndserver.database.windows.net;Initial Catalog=jeans-assignment;User ID=jeansmachine;Password=kitkat3006A!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Files\\Repositories\\avocado-web-app\\DataExplorer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='avocadoSales-months']/@connectionString" />
+  </parameter>
+  <parameter name="dash2-regions-Web.config Connection String" description="dash2-regions Connection String used in web.config by the application to access the database." defaultValue="Data Source=jeansndserver.database.windows.net;Initial Catalog=jeans-assignment;User ID=jeansmachine;Password=kitkat3006A!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Files\\Repositories\\avocado-web-app\\DataExplorer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dash2-regions']/@connectionString" />
+  </parameter>
+  <parameter name="dash2-years-Web.config Connection String" description="dash2-years Connection String used in web.config by the application to access the database." defaultValue="Data Source=jeansndserver.database.windows.net;Initial Catalog=jeans-assignment;User ID=jeansmachine;Password=kitkat3006A!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Files\\Repositories\\avocado-web-app\\DataExplorer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dash2-years']/@connectionString" />
+  </parameter>
+  <parameter name="dash2-sales-Web.config Connection String" description="dash2-sales Connection String used in web.config by the application to access the database." defaultValue="Data Source=jeansndserver.database.windows.net;Initial Catalog=jeans-assignment;User ID=jeansmachine;Password=kitkat3006A!" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Files\\Repositories\\avocado-web-app\\DataExplorer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dash2-sales']/@connectionString" />
+  </parameter>
+</parameters>

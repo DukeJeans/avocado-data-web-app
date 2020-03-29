@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="DataExplorer.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Avocado Explorer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./media/favicon.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <div>
+            <p>Avocado Price Explorer</p>
+        </div>
+    </header>
+    <div class="master-div">
+        <form action="default.aspx">
+            <button type="submit">Home Page</button>
+        </form>
+    </div>
+    <div class="master-div">
+        <form action="dash1.aspx">
+            <button type="submit">Avocado PLU Sales</button>
+        </form>
+    </div>
+    <div class="master-div">
+        <form action="dash2.aspx">
+            <button type="submit">Avocado Bags and Price</button>
+        </form>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <footer>
+        <div>
+            <p>© Nicholas Jeans 2020</p>
+        </div>
+    </footer>
+    </body>
+</html>
